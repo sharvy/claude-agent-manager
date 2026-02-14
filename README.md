@@ -7,6 +7,10 @@
     List, inspect, search, tag, resume, and snapshot your Claude Code sessions.<br/>
     Never lose track of active work across restarts again.
   </p>
+  <p align="center">
+    <a href="https://www.npmjs.com/package/claude-cam"><img src="https://img.shields.io/npm/v/claude-cam.svg" alt="npm version"></a>
+    <a href="https://www.npmjs.com/package/claude-cam"><img src="https://img.shields.io/npm/dm/claude-cam.svg" alt="npm downloads"></a>
+  </p>
 </p>
 
 <p align="center">
