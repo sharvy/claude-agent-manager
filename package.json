@@ -1,0 +1,41 @@
+{
+  "name": "claude-agent-manager",
+  "version": "1.0.0",
+  "description": "CLI tool for managing Claude Code sessions — list, inspect, search, resume, and snapshot your coding sessions",
+  "type": "module",
+  "bin": {
+    "claude-agent-manager": "./bin/agent-manager.js",
+    "cam": "./bin/agent-manager.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/agent-manager.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "session-manager",
+    "agent",
+    "ai",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharvy/claude-agent-manager"
+  },
+  "homepage": "https://github.com/sharvy/claude-agent-manager#readme",
+  "bugs": {
+    "url": "https://github.com/sharvy/claude-agent-manager/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
