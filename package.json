@@ -1,11 +1,12 @@
 {
-  "name": "claude-agent-manager",
+  "name": "claude-cam",
   "version": "1.0.0",
   "description": "CLI tool for managing Claude Code sessions — list, inspect, search, resume, and snapshot your coding sessions",
   "type": "module",
   "bin": {
     "claude-agent-manager": "./bin/agent-manager.js",
-    "cam": "./bin/agent-manager.js"
+    "cam": "./bin/agent-manager.js",
+    "claude-cam": "./bin/agent-manager.js"
   },
   "scripts": {
     "test": "node --test test/*.test.js",

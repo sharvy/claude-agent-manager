@@ -21,6 +21,12 @@
 
 ## Installation
 
+### From npm
+
+```bash
+npm install -g claude-cam
+```
+
 ### From source
 
 ```bash
@@ -29,11 +35,12 @@ cd claude-agent-manager
 npm link
 ```
 
-Both `cam` and `claude-agent-manager` work as CLI commands:
+After installation, `cam`, `claude-cam`, and `claude-agent-manager` all work as CLI commands:
 
 ```bash
 cam status
-claude-agent-manager status  # same thing
+claude-cam status
+claude-agent-manager status  # all do the same thing
 ```
 
 ### Requirements
